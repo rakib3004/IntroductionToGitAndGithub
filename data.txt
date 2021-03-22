@@ -1,0 +1,13 @@
+House
+Car
+Computer
+Mobile Phone
+Washing Machine
+Private Jet
+Private Bus
+Projector
+Scanner
+Printer
+Telescope
+Labratory
+Library
