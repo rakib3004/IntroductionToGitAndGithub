@@ -1,0 +1,31 @@
+Atomic Operation ---->  Effect
+
+atomic_set(&counter,5) ----> counter = 5
+atomic_add(&counter,5) ----> counter = counter+5
+atomic_sub(&counter,5) ----> counter = counter-5
+atomic_inc(&counter,5) ----> counter = counter+1
+
+
+
+
+Screen Lock:
+
+SMP Machine : Multiprocessor:
+single memonry
+
+
+Semaphore :
+
+
+Single Processor ----> Multiple Processor
+Disable Kernel Preemption ----> Aquire spin lock
+Enable Kernel Preemption ----> Release spin lock
+
+
+
+POSIX Thread :
+
+
+pthread_join(thread1,NULL)
+pthread_join(thread2,NULL)
+
